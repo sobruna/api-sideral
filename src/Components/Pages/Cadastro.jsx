@@ -2,15 +2,6 @@ import React from "react";
 
 import Default from "../Templates/Default";
 
-// import css from "../../Style/Import.css";
-
-// import cadastroImg from "../../Images/aboutuspro.png";
-
-// Qual seu nome?
-// Qual o seu telefone?
-// E-mail
-// Qual curso
-
 export default function Cadastro() {
   return (
     <Default>

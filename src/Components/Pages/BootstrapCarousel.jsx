@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-
+import css from "../../Style/Import.css";
 import ChamadaZoom from "../../Images/Carousel/chamada-zoom.jpg";
 import EstudanteNotebook from "../../Images/Carousel/estudante-notebook.jpg";
 import EstudanteTablet from "../../Images/Carousel/estudante-tablet.jpg";
@@ -7,7 +7,15 @@ import EstudanteNotebookMulher from "../../Images/Carousel/estudante-notebook-mu
 
 function BootstrapCarousel() {
   return (
-    <div className="col-10 col-md-10 col-sm-10 mt-4">
+    <div
+      style={{
+        display: "flex",
+        height: "100vh",
+        overflow: "scroll initial",
+        backgroundColor: "#bb7fd9",
+      }}
+      className="col-10 col-md-10 col-sm-10 mt-4"
+    >
       <Carousel className="Carrossel">
         <Carousel.Item>
           <img className="d-block w-100" src={ChamadaZoom} alt="First slide" />

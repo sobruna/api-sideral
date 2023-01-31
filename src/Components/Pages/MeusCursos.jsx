@@ -4,7 +4,7 @@ import Default from "../Templates/Default";
 import css from "../../Style/Import.css";
 import logo from "../../Images/icon.png";
 
-export default function Logado() {
+export default function MeusCursos() {
   return (
     <Default>
       <main className="container-fluid ">

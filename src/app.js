@@ -10,7 +10,8 @@ import SideralNaImprensa from "./Components/Pages/SideralNaImprensa";
 import SobreASideral from "./Components/Pages/SobreASideral";
 import TermosDeUso from "./Components/Pages/TermosDeUso";
 import TrabalheConosco from "./Components/Pages/TrabalheConosco";
-import Logado from "./Components/Pages/Logado"
+import MeusCursos from "./Components/Pages/MeusCursos"
+import MinhaConta from "./Components/Pages/MinhaConta"
 
 import BootStrapCarousel from "./Components/Pages/BootstrapCarousel";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -29,8 +30,9 @@ function App() {
       <Route path="/imprensa" element={<SideralNaImprensa />} />;
       <Route path="/termos-de-uso" element={<TermosDeUso />} />;
       <Route path="/trabalhe-conosco" element={<TrabalheConosco />} />;
-      <Route path="/logado" element={<Logado />} />  
+      <Route path="/meuscursos" element={<MeusCursos />} />  
       <Route path="/sobre" element={<SobreASideral />} />
+      <Route path="/minhaconta" element={<MinhaConta />} />
     </Routes>
     </BrowserRouter>
   );
