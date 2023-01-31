@@ -4,6 +4,7 @@ const cors = require('cors')
 const path = require('path');
 
 require('dotenv-safe').config();
+//require('dotenv-safe').load();
 
 const db = require('./database/mongoConfig')
 const userRoutes = require('./routes/userRoutes')
