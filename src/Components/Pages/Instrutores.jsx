@@ -2,7 +2,11 @@ import React from "react";
 
 import Default from "../Templates/Default";
 
-import css from "../../Style/Import.css";
+import "../../Style/Style.css";
+import "../../Style/Cadastro.css";
+import "../../Style/Cursos.css";
+import "../../Style/Login.css";
+import "../../Style/TermosDeUso.css";
 
 import instrutor1 from "../../Images/Instrutores/instrutor_01.jpg";
 import instrutor2 from "../../Images/Instrutores/instrutor_02.jpg";

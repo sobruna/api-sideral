@@ -4,6 +4,12 @@ import loginimg from "../../Images/login.jpg";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { Form, Button } from "react-bootstrap";
+import "../../Style/Style.css";
+import "../../Style/Cadastro.css";
+import "../../Style/Cursos.css";
+import "../../Style/Login.css";
+import "../../Style/TermosDeUso.css";
+
 import Cookies from "universal-cookie";
 const cookies = new Cookies();
 

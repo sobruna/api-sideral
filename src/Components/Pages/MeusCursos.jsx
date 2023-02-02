@@ -1,15 +1,23 @@
 import React from "react";
-import Default from "../Templates/Default";
-
-import css from "../../Style/Import.css";
 import logo from "../../Images/icon.png";
+import LoggedIn from "../Templates/LoggedIn";
+import "../../Style/Style.css";
+import "../../Style/Cadastro.css";
+import "../../Style/Cursos.css";
+import "../../Style/Login.css";
+import "../../Style/TermosDeUso.css";
 
 export default function MeusCursos() {
   return (
-    <Default>
-      <main className="container-fluid ">
+    <LoggedIn>
+      <main
+        className="container-fluid top-0"
+        style={{
+          backgroundColor: "#bb7fd9",
+        }}
+      >
         <div className="container px-4 py-5" id="custom-cards">
-          <h4 className="pb-2 border-bottom">Seus Cursos</h4>
+          <h4 className="pb-2 border-bottom">Meus cursos</h4>
 
           <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
             <div className="col">
@@ -98,6 +106,6 @@ export default function MeusCursos() {
           </div>
         </div>
       </main>
-    </Default>
+    </LoggedIn>
   );
 }

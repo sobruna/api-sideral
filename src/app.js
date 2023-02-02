@@ -12,6 +12,7 @@ import TermosDeUso from "./Components/Pages/TermosDeUso";
 import TrabalheConosco from "./Components/Pages/TrabalheConosco";
 import MeusCursos from "./Components/Pages/MeusCursos"
 import MinhaConta from "./Components/Pages/MinhaConta"
+import AcessarCurso from "./Components/Pages/AcessarCurso"
 
 import BootStrapCarousel from "./Components/Pages/BootstrapCarousel";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -33,6 +34,7 @@ function App() {
       <Route path="/meuscursos" element={<MeusCursos />} />  
       <Route path="/sobre" element={<SobreASideral />} />
       <Route path="/minhaconta" element={<MinhaConta />} />
+      <Route path="/curso-teste" element={<AcessarCurso />} />
     </Routes>
     </BrowserRouter>
   );
